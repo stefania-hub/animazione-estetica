@@ -1,0 +1,214 @@
+body{
+   background-color: plum;
+   display: flex;
+   height: 100vh;
+   column-gap: 2px;
+   justify-content:2px ;
+   align-items:flex-end ;
+
+
+}
+html,body{
+margin: 0;
+padding: 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 10vw;
+    flex-grow: 1;
+    background-color: white;
+
+
+     animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+
+@keyframes colora-rosa {
+    0%{
+        transform: translate(0px,0vh) scale(1);
+        background-color: aqua;
+
+    }
+    /* 33%{
+         transform: translate(0px,33px);
+
+    }
+    66%{
+         transform: translate(0px,66px);
+
+    } */
+    100%{
+        transform: translate(0px, -100vh) scale(0.1);
+        background-color: pink;
+
+    }
+
+    
+
+}
+@keyframes colora-verde {
+
+        0%{
+        transform: translate(0px,0vh) scale(1);
+        background-color: aqua;
+
+    }
+    /* 33%{
+         transform: translate(0px,33px);
+
+    }
+    66%{
+         transform: translate(0px,66px);
+
+    } */
+    100%{
+        transform: translate(0px, -100vh) scale(0.1);
+        background-color: green;
+
+    }
+    
+}
+
+@keyframes colora-rosso {
+
+        0%{
+        transform: translate(0px,0vh) scale(1);
+        background-color: aqua;
+
+    }
+    /* 33%{
+         transform: translate(0px,33px);
+
+    }
+    66%{
+         transform: translate(0px,66px);
+
+    } */
+    100%{
+        transform: translate(0px, -100vh) scale(0.1);
+        background-color: red;
+
+    }
+    
+}
+
+@keyframes colora-blue {
+
+        0%{
+        transform: translate(0px,0vh) scale(1);
+        background-color: aqua;
+
+    }
+    /* 33%{
+         transform: translate(0px,33px);
+
+    }
+    66%{
+         transform: translate(0px,66px);
+
+    } */
+    100%{
+        transform: translate(0px, -100vh) scale(0.1);
+        background-color: blue;
+
+    }
+    
+}
+
+
+@keyframes colora-yellow{
+
+        0%{
+        transform: translate(0px,0vh) scale(1);
+        background-color: aqua;
+
+    }
+    /* 33%{
+         transform: translate(0px,33px);
+
+    }
+    66%{
+         transform: translate(0px,66px);
+
+    } */
+    100%{
+        transform: translate(0px, -100vh) scale(0.1);
+        background-color: yellow;
+
+    }
+    
+}
+
+
+@keyframes colora-orange{
+
+        0%{
+        transform: translate(0px,0vh) scale(1);
+        background-color: aqua;
+
+    }
+    /* 33%{
+         transform: translate(0px,33px);
+
+    }
+    66%{
+         transform: translate(0px,66px);
+
+    } */
+    100%{
+        transform: translate(0px, -100vh) scale(0.1);
+        background-color: orange;
+
+    }
+    
+}
+
+
+.delay1{
+    animation-delay: 0.2s;
+    animation-name: colora-rosa;
+}
+
+.delay2{
+    animation-delay: 0.3s;
+    animation-name: colora-verde;
+}
+
+.delay3{
+    animation-delay: 0.4s;
+    animation-name: colora-rosso;
+}
+
+.delay4{
+    animation-delay: 0.5s; 
+    animation-name: colora-blue;
+}
+
+.delay5{
+    animation-delay: 0.6s;
+    animation-name: colora-yellow;
+}
+
+.delay6{
+    animation-delay: 0.7s;
+    animation-name: colora-orange;
+}
+.delay7{
+    animation-delay: 0.8s;
+}
+.delay8{
+    animation-delay: 0.9s;
+}
+.delay9{
+    animation-delay: 1.0s;
+}
+.delay10{
+    animation-delay: 1.1s;
+}
+
+
