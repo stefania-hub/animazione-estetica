@@ -59,14 +59,14 @@ body {
 
 @keyframes color-red {
     0% {
-        transform: translate(0px, 0vh) scale(1);
-        background-color: red;
+        transform: translate(0px, 0vh) rotate(0deg) scale(1);
+        background-color: #493240;
 
     }
 
     100% {
-        transform: translate(0px, -100vh) scale(0.1);
-        background-color: rgb(243, 47, 47);
+        transform: translate(0px, -100vh) rotate(360deg) scale(0.1);
+        background-color: #FF0099;
 
     }
 
@@ -77,14 +77,14 @@ body {
 @keyframes color-orange {
 
     0% {
-        transform: translate(0px, 0vh) scale(1);
-        background-color: orangered;
+        transform: translate(0px, -100vh) rotate(360deg) scale(0.1);
+        background-color: #0099F7;
 
     }
 
     100% {
-        transform: translate(0px, -100vh) scale(0.1);
-        background-color: orange;
+        transform: translate(0px, 0vh) rotate (0deg) scale(1);
+        background-color: #F11712;
 
     }
 
@@ -93,14 +93,14 @@ body {
 @keyframes color-yellow {
 
     0% {
-        transform: translate(0px, 0vh) scale(1);
-        background-color: yellow;
+        transform: translate(0px, 0vh) rotate(0deg) scale(1);
+        background-color: #00bf8f;
 
     }
 
     100% {
-        transform: translate(0px, -100vh) scale(0.1);
-        background-color: rgb(255, 255, 75);
+        transform: translate(0px, -75vh) rotate(180deg)  scale(0.1);
+        background-color: #001510;
 
     }
 
@@ -109,14 +109,14 @@ body {
 @keyframes color-green {
 
     0% {
-        transform: translate(0px, 0vh) scale(1);
-        background-color: green;
+        transform: translate(0px, 0vh) rotate(180deg) scale(0.1);
+        background-color: #283E51;
 
     }
 
     100% {
-        transform: translate(0px, -100vh) scale(0.1);
-        background-color: rgb(31, 207, 31);
+        transform: translate(0px, -75vh) rotate(0deg) scale(1);
+        background-color: #4B79A1;
 
     }
 
@@ -127,14 +127,13 @@ body {
 
     0% {
         transform: translate(0px, 0vh) scale(1);
-        background-color: blue;
+        background-color: #6D6027;
 
     }
 
     100% {
         transform: translate(0px, -100vh) scale(0.1);
-        background-color: rgb(63, 63, 241);
-
+        background-color: #fc4a1a;
     }
 
 }
@@ -144,13 +143,13 @@ body {
 
     0% {
         transform: translate(0px, 0vh) scale(1);
-        background-color: purple;
+        background-color: #fc4a1a
 
     }
 
     100% {
         transform: translate(0px, -100vh) scale(0.1);
-        background-color:  violet;
+        background-color:  #6D6027;
 
     }
 
@@ -159,14 +158,14 @@ body {
 @keyframes color-turquoise {
 
     0% {
-        transform: translate(0px, 0vh) scale(1);
-        background-color: rgb(31, 167, 153);
+        transform: translate(0px, 0vh) rotate(180deg) scale(0.1);
+        background-color: #5e98a7;
 
     }
 
     100% {
-        transform: translate(0px, -100vh) scale(0.1);
-        background-color: turquoise;
+        transform: translate(0px, -75vh) rotate(0deg) scale(1);
+        background-color: #274046;
 
     }
 
@@ -176,14 +175,14 @@ body {
 @keyframes color-gold {
 
     0% {
-        transform: translate(0px, 0vh) scale(1);
-        background-color: goldenrod;
+        transform: translate(0px, 0vh) rotate(0deg) scale(1);
+        background-color: #093028;
 
     }
 
     100% {
-        transform: translate(0px, -100vh) scale(0.1);
-        background-color: gold;
+        transform: translate(0px, -75vh) rotate(180deg) scale(0.1);
+        background-color: #237A57;
 
     }
 
@@ -192,14 +191,14 @@ body {
 @keyframes color-olive {
 
     0% {
-        transform: translate(0px, 0vh) scale(1);
-        background-color: olivedrab;
+        transform: translate(0px, -100vh) rotate(360deg) scale(0.1);
+        background-color: #F11712;
 
     }
 
     100% {
-        transform: translate(0px, -100vh) scale(0.1);
-        background-color: greenyellow;
+        transform: translate(0px, 0vh) rotate (0deg) scale(1);
+        background-color: #0099F7;
 
     }
 
@@ -208,14 +207,14 @@ body {
 @keyframes color-steelblue {
 
     0% {
-        transform: translate(0px, 0vh) scale(1);
-        background-color: steelblue;
+        transform: translate(0px, 0vh) rotate(0deg) scale(1);
+        background-color: #ff00cc;
 
     }
 
     100% {
-        transform: translate(0px, -100vh) scale(0.1);
-        background-color: aquamarine;
+        transform: translate(0px, -100vh) rotate(360deg) scale(0.1);
+        background-color: #7303c0;
 
     }
 
@@ -257,16 +256,18 @@ body {
 }
 
 .delay8 {
-    animation-delay: 0.9s;
+    animation-delay: 0.4s;
     animation-name: color-gold;
 }
 
 .delay9 {
-    animation-delay: 1.0s;
+    /* animation-delay: 1.0s; */
+    animation-delay: 0.3s;
     animation-name: color-olive;
 }
 
 .delay10 {
-    animation-delay: 1.1s;
+    /* animation-delay: 1.1s; */
+    animation-delay: 0.2s;
     animation-name: color-steelblue;
 }
